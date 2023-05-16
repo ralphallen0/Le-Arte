@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ============== SCROLL REVEAL ================ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- ============== BOXICONS ===================== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ============== MAIN CSS ==================  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" type="image/jpg" href="imahe/logo.png">
+
+    <title>Le Arte - Ralph's Portfolio</title>
+</head>
+
+<body>
+
+    <!-- =============== SCROLL ============= -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-chevron-up scrolltop_icon'></i>
+    </a>
+
+    <!-- =============== HEADER ============= -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo"><img src="imahe/logo1.png"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link active-link">HOME</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">ABOUT</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">SERVICES</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">GALLERY</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">CONTACT ME</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =============== MAIN SECTIONS ============= -->
+    <class="l-main">
+        <!-- HOME SECTION -->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello! I am</span>
+                    <h1 class="home__name">Ralph Allen</h1>
+                    <span class="home__profession">a Visual Artist.</span>
+                    <a download="" href="pdf/Ralph_Allen P. Dublado_CV.pdf" class="button">View CV</a>
+                </div>
+                <div class="home__social">
+                    <a href="https://www.facebook.com/ralphdublado" target="_blank" class="home__social-icon"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="https://twitter.com/Rxxxxxlph" target="_blank" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/dubladoralph_/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="imahe/banner.png">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section bd-container" id="about">
+            <span class="section-subtitle">Know more</span>
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <img src="imahe/DSC_0470.jpg" class="about__img">
+                
+                <div class="about__data bd-grid">
+                    <p class="about__description">I'm Ralph Allen Dublado, a visual artist with a passion for bringing ideas to life through my creations. I've always been captivated by the power of art to transport people to new worlds, to connect with their emotions, and to bring people together in a shared experience.</p>
+                    <p class="about__description">My art is deeply inspired by the beauty and complexity of the world around us, as well as the vast possibilities of the imagination. Whether I'm creating a portrait, a landscape, or a character, I strive to capture the essence of my subject and convey it in a way that resonates with viewers on a deep and personal level.</p>
+                    <p class="about__description">My hope is that my art will not only be aesthetically pleasing but will also resonate with the viewer and spark their imagination, inviting them to see the world in a new and exciting way. I believe that art has the power to change lives, and I'm thrilled to share my creative journey with you.</p>
+                </div>
+
+            </div>
+        </section>
+
+         <!-- Services SECTION -->
+         <section class="services section bd-container" id="services">
+            <span class="section-subtitle">What I Offer</span>
+            <h2 class="section-title">Services</h2>
+
+            <div class="services__container bd-grid">
+        
+                <div class="services__data">
+                    <i class='bx bx-paint services__icon'></i>
+                    <h3 class="services__title">Digital Painting</h3>
+                    <p class="services__description">I can paint portraits, characters, and landscapes digitally using Photoshop CC.</p>
+                </div>
+
+                <div class="services__data">
+                    <i class='bx bx-pencil services__icon'></i>
+                    <h3 class="services__title">Traditional Drawing</h3>
+                    <p class="services__description">I can draw portraits, characters, and landscapes traditionally using graphite pencils, charcoal pencils, colored pencils, and pens.</p>
+                </div>
+
+                <div class="services__data">
+                    <i class='bx bx-palette services__icon'></i>
+                    <h3 class="services__title">Traditional Painting</h3>
+                    <p class="services__description">I can paint portraits, characters, and landscapes traditionally using gouache, acrylic paints, and watercolors.</p>
+                </div>
+
+                <div class="services__data">
+                    <i class='bx bx-paper-plane services__icon'></i>
+                    <h3 class="services__title">Paper Crafts</h3>
+                    <p class="services__description">I can do paper crafts such as paper cutting, origami, and puppets.</p>
+                </div>
+                
+            </div>
+            
+        </section>
+        
+
+         <!-- PORTFOLIO SECTION -->
+         <section class="gallery section bd-container" id="gallery">
+            <span class="section-subtitle">My Artworks</span>
+            <h2 class="section-title">Gallery</h2>
+        
+
+            <div class="gallery__nav">
+                <span class="gallery__item" data-filter="all">All</span>
+                <span class="gallery__item" data-filter=".digital">Digital</span>
+                <span class="gallery__item" data-filter=".traditional">Traditional</span>
+            </div>
+
+            <!-- DIGITAL -->
+
+            <div class="gallery__container bd-grid">
+                <div class="gallery__content mix digital">
+                  <img src="imahe/Digi/Portraits/Love.jpg" class="gallery__img" id="myImg" alt="Digital portrait painting of Izzey De Joya using Photoshop CC">
+                    <div class="gallery__data">
+                        <span class="gallery__subtitle">Digital Painting</span>
+                        <a href="#"><h2 class="gallery__title">Izzey De Joya</h2></a>
+                        
+                          
+                    </div>
+                </div>
+
+                <div class="gallery__content mix digital">
+                    <img src="imahe/Digi/Portraits/Hyein.png" class="gallery__img" id="myImg" alt="Digital portrait painting of Hyein from NewJeans using Photoshop CC"> 
+                      <div class="gallery__data">
+                          <span class="gallery__subtitle">Digital Painting</span>
+                          <a href="#"><h2 class="gallery__title">Hyein</h2></a>
+
+                          
+                      </div>
+                  </div>
+
+                  <div class="gallery__content mix digital">
+                    <img src="imahe/Digi/Portraits/Hanni.png" class="gallery__img" id="myImg" alt="Digital portrait painting of Hanni from NewJeans using Photoshop CC">  
+                      <div class="gallery__data">
+                          <span class="gallery__subtitle">Digital Painting</span>
+                          <a href="#"><h2 class="gallery__title">Hanni</h2></a>
+                      </div>
+                  </div>
+
+                  <!-- TRADITIONAL -->
+
+                  <div class="gallery__content mix traditional">
+                    <img src="imahe/Trad/5.jpg" class="gallery__img" id="myImg" alt="Portrait of Izzey De Joya using paper cutting">  
+                      <div class="gallery__data">
+                          <span class="gallery__subtitle">Traditional</span>
+                          <a href="#"><h2 class="gallery__title">Izzey De Joya - Paper Cutting</h2></a>
+                      </div>
+                  </div>
+
+                  <div class="gallery__content mix traditional">
+                    <img src="imahe/Trad/2.jpg" class="gallery__img" id="myImg" alt="A portrait study using watercolors"> 
+                      <div class="gallery__data">
+                          <span class="gallery__subtitle">Traditional Drawing</span>
+                          <a href="#"><h2 class="gallery__title">Portrait Study</h2></a>
+                      </div>
+                  </div>
+
+                  <div class="gallery__content mix traditional">
+                    <img src="imahe/Trad/6.jpg" class="gallery__img" id="myImg" alt="An illustration of LaFerrari using Colored pencils and alcohol markers">
+                      <div class="gallery__data">
+                          <span class="gallery__subtitle">Traditional Drawing</span>
+                          <a href="#"><h2 class="gallery__title">LaFerrari</h2></a>
+                      </div>
+                  </div>  
+
+                        <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                        </div>
+            </div>
+            </section>
+
+          <!-- Contact Me SECTION -->
+            <section class="contact section bd-container" id="contact">
+            <span class="section-subtitle">For Inquiries</span>
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__content bd-grid">
+                    <div class="contact__box">
+                        <i class='bx bx-home contact__icon'></i>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__description">Subic, Zambales</span>
+                    </div>
+
+                    <div class="contact__box">
+                        <i class='bx bx-phone contact__icon'></i>
+                        <h3 class="contact__title">Contact No.</h3>
+                        <span class="contact__description">0945-156-9788</span>
+                    </div>
+
+                    <div class="contact__box">
+                        <i class='bx bx-envelope contact__icon'></i>
+                        <h3 class="contact__title">E-mail Address</h3>
+                        <span class="contact__description">ralph.dublado@gmail.com</span>
+                    </div>
+
+                    <div class="contact__box">
+                        <i class='bx bx-chat contact__icon'></i>
+                        <h3 class="contact__title">Socials</h3>
+                        <div>
+                            <a href="#" class="contact__social"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="contact__social"><i class="bx bxl-telegram"></i></a>
+                            <a href="#" class="contact__social"><i class="bx bxl-messenger"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Full Name" class="contact__input">
+                        <input type="email" placeholder="E-mail" class="contact__input">
+                    </div>
+
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Project" class="contact__input">
+                        <input type="text" placeholder="Contact No." class="contact__input">
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
+                
+                    <input type="submit" value="Send Message" class="button contact__button">
+                </form>
+            </div>
+
+            </section>
+
+    </main>
+
+    <!-- =============== Footer ============= -->
+    <footer class="footer">
+        <div class="footer__container bd-container">
+            <h1 class="footer__title">Ralph Dublado</h1>
+            <p class="footer__description">Here's my personal portfolio website.</p>
+
+            <div class="footer__social">
+                <a href="https://www.facebook.com/ralphdublado" target="_blank" class="footer__link"><i class='bx bxl-facebook-square' ></i></a>
+                <a href="https://www.instagram.com/dubladoralph_/" target="_blank" class="footer__link"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://twitter.com/Rxxxxxlph" target="_blank" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; 2023 Ralph Dublado. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- =============== MIXITUP ============= -->
+    <script src="js/mixitup.min.js"></script>
+
+    <!-- =============== Main JS ============= -->
+    <script src="js/main.js"></script>
+</body>
+</html>
